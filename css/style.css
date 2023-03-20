@@ -1,0 +1,121 @@
+html{
+    font-family: "Roboto", sans-serif;
+    line-height: 1.4;
+    font-size: 110%;
+    color: #222;
+}
+html {
+    box-sizing: border-box;
+    }
+    *, *::before, *::after {
+    box-sizing: inherit;
+    }
+    
+body{
+    margin: 0;
+}
+img{
+    width: 100%;
+}
+
+.logo{
+    width: 160px;
+    display: block;
+    margin: 0 auto;
+}
+.wrapper{
+    max-width: 900px;
+    margin: auto;
+    padding: 1.5em 0;
+}
+header{
+    padding: 1.5em 0 1.5em 0;
+}
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 0;
+}
+ul{
+    text-align: center;
+}
+nav a{
+    list-style-type: none;
+    padding: 0.5em  0.75em;
+    display: inline;
+    border-radius: 8px;
+}
+ul{
+    list-style-type: none;
+}
+nav a:link, 
+nav a:visited{
+    background-color: purple;
+    color: aliceblue;
+    border: 2px solid white;
+    text-decoration: none;
+}
+nav a :hover,
+nav a :focus{
+    background-color: aliceblue;
+    color: purple;
+    border: 2px solid purple;
+}
+.hero{
+    width: 100%;
+    padding: 10em 0 10em 0;
+    display: inline-block;
+    background-image: url("../images/greatest-90s-fashion-trends.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+}
+.hero h1{
+    width: 75%;
+    padding: .5em;
+    margin: center;
+    color :aliceblue;
+    font-size: 2em;
+    text-shadow: 2px 2px rgba(0, 0, 0, 8);
+    background-color: rgba(0,0,0, .25);
+}
+.trends{
+    background-color: purple;
+
+}
+.trends figure{
+    width: 22%;
+    display: inline-block;
+    padding: 2em 0 2em 0;
+}
+figcaption{
+    color: white;
+    font-style: italic;
+    text-align: center;
+}
+.icon{
+    display: inline-block;
+    padding: 2em 0;
+}
+.icon img{
+    width: 260px;
+    float: left;
+    margin-right: 2em;
+}
+.icon+p{
+    clear:left;
+    
+}
+.featured-articles{
+    display: none;
+}
+footer{
+    background-color: black;
+    color: white;
+
+}
+footer .wrapper {
+    text-align: center;
+    padding: 8px;
+
+}
